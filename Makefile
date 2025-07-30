@@ -3,7 +3,7 @@ scc: scc.c
 	gcc -o scc scc.c
 
 test.s: scc
-	./scc 42 > test.s
+	./scc '10+5-2' > test.s
 
 main: test.s
 	gcc -o main test.s
