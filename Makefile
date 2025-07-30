@@ -1,4 +1,3 @@
-all: main
 
 scc: scc.c
 	gcc -o scc scc.c
